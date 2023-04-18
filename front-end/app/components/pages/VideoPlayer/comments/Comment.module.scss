@@ -1,0 +1,54 @@
+.comments{
+  @apply rounded-xl p-5 relative;
+  background-color: #252526;
+
+  >h2{
+    @apply text-white text-tiny;
+  }
+
+  .line{
+    @apply w-full h-0.5 my-4;
+    background-color: #3f3f41;
+  }
+
+  > p{
+    @apply text-gray-500 mb-4;
+  }
+  .commentOverflow {
+    max-height: 20rem;
+    overflow: auto;
+  }
+  .commentOverflow::-webkit-scrollbar {
+      width: 10px;
+    border-radius: 10px;
+    }
+
+  .commentOverflow::-webkit-scrollbar-track {
+
+    }
+
+  .commentOverflow::-webkit-scrollbar-thumb {
+      background-color: #252526;
+      outline: 1px solid #d91300;
+    border-radius: 10px;
+    }
+
+  .commentItem{
+    @apply mt-7;
+    > div > div {
+      div{
+        &:first-child{
+          @apply text-xs;
+        }
+        &:last-child{
+          font-size: 1rem;
+        }
+
+      }
+    }
+  }
+
+  .bottomForm{
+    width: calc(100% - 2.5rem);
+  }
+}

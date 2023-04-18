@@ -1,0 +1,33 @@
+@keyframes opacity {
+  from{
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bottom {
+  from{
+    bottom: -25px;
+  }
+  to {
+    bottom: 0;
+  }
+}
+
+.episode{
+  background: rgba(13, 16, 17, 0.7);
+  color: white;
+  animation: opacity .7s;
+  z-index: 1;
+  position: relative;
+  height: 100%;
+  padding: 15% 0 0 0;
+  border-radius: 20px;
+
+  .episodePreview{
+   animation: bottom .9s;
+    position: relative;
+  }
+}

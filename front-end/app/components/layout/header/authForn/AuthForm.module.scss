@@ -1,0 +1,27 @@
+.wrapper{
+  @apply relative inline-flex;
+
+  .form{
+    @apply animate-scaleIn p-4 absolute right-2 w-60 z-20 rounded-lg text-white;
+    top: calc(100% + 1rem);
+    background: #252526;
+    box-shadow: 0 20px 20px 20px rgb(0, 0, 0 , 0.1), 0 4px 6px -4px rgb(0,0,0 , 0.1);
+
+    .input{
+      @apply rounded-lg py-2 px-4 w-full block outline-0 text-white mt-4;
+      background-color: #39393a;
+      transition: box-shadow 0.4s ease;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.03);
+    }
+
+    .error{
+      @apply relative w-full text-red-500 mb-4;
+      font-size: 0.8rem;
+    }
+
+
+    .register{
+      @apply text-gray-500 opacity-40 block text-center w-full hover:text-white hover:opacity-100;
+    }
+  }
+}

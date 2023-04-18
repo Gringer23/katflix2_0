@@ -1,0 +1,13 @@
+.sidebar{
+  @apply py-5 px-7;
+  width: 18%;
+
+  >.logo{
+    @apply text-4xl font-semibold;
+    color: #d23939;
+  }
+
+  .copy {
+    @apply text-gray-600 text-opacity-60 text-xs;
+  }
+}

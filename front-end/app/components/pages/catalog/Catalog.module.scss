@@ -1,0 +1,21 @@
+.recommended{
+  >.top_block{
+    @apply flex items-center justify-between mb-2 text-white;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+
+    >.sort{
+      @apply text-white;
+    }
+  }
+
+  .catalog{
+    @apply flex flex-wrap gap-5;
+
+    >div{
+      @apply mb-2.5;
+      flex: 1 1 calc((100%/ 5) + 2rem);
+      width: 23%;
+    }
+  }
+}

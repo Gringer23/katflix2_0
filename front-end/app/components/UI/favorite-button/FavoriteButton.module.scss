@@ -1,0 +1,17 @@
+.favorite {
+  border: 2px solid rgba(255, 255, 255);
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  background-color: transparent;
+  outline: none;
+  font-size: 18px;
+  margin-right: 1rem;
+  color: #c9c8c7;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+
+  >span:hover {
+    color: white;
+  }
+}
